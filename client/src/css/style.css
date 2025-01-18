@@ -1,0 +1,115 @@
+h1{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header
+{
+    padding: 10px;
+    text-align: right;
+    background-color: lightblue;
+}
+
+.space 
+{
+    margin-left: 20px;
+}
+
+#footer
+{
+    padding: 40px;
+    background-color: rgb(71, 69, 69);
+    color: white;
+}
+
+#adminHeader
+{
+    height: 100px;
+    background-color: lightblue;
+}
+
+#adminData
+{
+    display: flex;
+    justify-content: space-between;
+}
+#adminMenu
+{
+    width: 20%;
+    background-color: black;
+    color: white;
+
+}
+#adminContent
+{
+    padding-left: 30px;
+    width:80%
+}
+
+.menucolor
+{
+    color: whitesmoke;
+}
+
+#carddata
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#headerPart
+{
+    position:sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#proDetail
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+#proImage
+{
+    width: 50%;
+    margin-right: 30px;
+}
+#proData
+{
+    width: 50%;
+}
+
+#shoppage
+{
+    display: flex;
+    justify-content: space-between;
+}
+#shopMenu
+{
+    width: 20%;
+    padding: 30px;
+}
+#shopData
+{
+    width: 80%;
+}
+
+#payPage
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#payForm
+{
+    width: 50%;
+}
+#payMethod
+{
+    width: 50%;
+}
